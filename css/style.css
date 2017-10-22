@@ -1,0 +1,146 @@
+/*body {
+    font-family: 'Petit Formal Script';font-size: 20px;
+    padding:0;
+    margin:0;
+    background-color:#f9f9f9;
+}*/
+
+
+/*build a button*/
+.btn {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  background: #08a;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .75);
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 2px solid #fff;
+}
+
+.btn:hover {
+  background: #fff;
+  box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, .75);
+  color: #c0c;
+  text-shadow: none;
+}
+
+
+
+/*hero style*/
+#hero {
+  background-image: url(../img/cathedralveil3.jpg);
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 80px 0px 0px 0px;
+  text-align: center;
+  text-shadow: 0px 2px 10px #000;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+
+
+body {
+  background-color: #000;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Global*/
+.container {
+/*no fixed pixels due to responsive req.*/
+  width:80%
+  margin:auto;
+  overflow:hidden;
+
+}
+
+
+/*Header*/
+header {
+  background:#FEDADC;
+  color:#F9F9F9;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#D3AC78 3px solid;
+}
+
+header a{
+  color:#555555;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header a{
+  color#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font size:16px;
+}
+
+
+header ul{
+
+  margin:0;
+  padding:0;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding:0 20px 0 20px;
+}
+
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav {
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover {
+color:#cccccc;
+font-weight:bold;
+
+}
+
+/*Showcase*/
+
+#showcase{
+    background-image: url("../img/cathedralveil3.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box {
+  background-image: url("../img/cathedralveil");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
