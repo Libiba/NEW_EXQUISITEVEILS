@@ -43,7 +43,9 @@ h3 {
 
 /*hero style*/
 #hero {
-  background-image: url(../img/cathedralveil3.jpg);
+ /* background-image: url(../img/cathedralveil3.jpg);*/
+  background-image: url(../img/littlegirl.jpg);
+    background-size: 100% auto;
   background-size: 100% auto;
   background-attachment: fixed;
   background-position: center center;
@@ -121,7 +123,7 @@ font-weight:bold;
 /*Showcase*/
 
 #showcase{
-    background-image: url("../img/cathedralveil3.jpg");
+    background-image: url("../img/littlegirl.jpg");
     min-height: 900px;
     background-attachment: fixed;
     background-position: center;
